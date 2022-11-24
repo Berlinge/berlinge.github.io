@@ -1,122 +1,266 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-<title>Michael Münter</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/w3.css">
+  <title>Michael Münter</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    
+    .fa-google {
+      background: #dd4b39;
+      color: white;
+    }
+    
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    
+    .fa-pinterest {
+      background: #cb2027;
+      color: white;
+    }
+    
+    .fa-snapchat-ghost {
+      background: #fffc00;
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    
+    .fa-skype {
+      background: #00aff0;
+      color: white;
+    }
+    
+    .fa-android {
+      background: #a4c639;
+      color: white;
+    }
+    
+    .fa-dribbble {
+      background: #ea4c89;
+      color: white;
+    }
+    
+    .fa-vimeo {
+      background: #45bbff;
+      color: white;
+    }
+    
+    .fa-tumblr {
+      background: #2c4762;
+      color: white;
+    }
+    
+    .fa-vine {
+      background: #00b489;
+      color: white;
+    }
+    
+    .fa-foursquare {
+      background: #45bbff;
+      color: white;
+    }
+    
+    .fa-stumbleupon {
+      background: #eb4924;
+      color: white;
+    }
+    
+    .fa-flickr {
+      background: #f40083;
+      color: white;
+    }
+    
+    .fa-yahoo {
+      background: #430297;
+      color: white;
+    }
+    
+    .fa-soundcloud {
+      background: #ff5500;
+      color: white;
+    }
+    
+    .fa-reddit {
+      background: #ff5700;
+      color: white;
+    }
+    
+    .fa-rss {
+      background: #ff6600;
+      color: white;
+    }
+    </style>
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Montserrat", sans-serif
+    }
 
-<style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-.bgimg {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('img/bg.jpg');
-  min-height: 100%;
-}
-</style>
+    .w3-row-padding img {
+      margin-bottom: 12px
+    }
+
+    .bgimg {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('img/bg.jpg');
+      min-height: 100%;
+    }
+  </style>
 </head>
+
 <body>
 
-<!-- Sidebar with image -->
-<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
-  <div class="bgimg"></div>
-</nav>
+  <!-- Sidebar with image -->
+  <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+    <div class="bgimg"></div>
+  </nav>
 
-<!-- Page Content -->
-<div class="w3-main w3-padding-large" style="margin-left:40%">
+  <!-- Page Content -->
+  <div class="w3-main w3-padding-large" style="margin-left:40%">
 
-  <!-- Header -->
-  <header class="w3-container w3-center" style="padding:12px 16px" id="home">
-    <h1 class="w3-jumbo"><b>Michael Münter</b></h1>
-    <img src="img/bg.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
-    <img src="img/bg.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
- 
-    <!-- 
+    <!-- Header -->
+    <header class="w3-container w3-center" style="padding:12px 16px" id="home">
+      <h1 class="w3-jumbo"><b>Michael Münter</b></h1>
+      <img src="img/bg.jpg" class="w3-image w3-hide-large w3-hide-small w3-round"
+        style="display:block;width:60%;margin:auto;">
+      <img src="img/bg.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+
+      <!-- 
     <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
       <i class="fa fa-download"></i> <a href="https://1drv.ms/b/s!AnBR8aYe4fDOq9khEn53mYUETDVLaw" target="_blank">Download cv</a>
     </button>
     -->
-  </header>
+    </header>
 
-  <!-- Portfolio Section -->
-  <div class="w3-padding-32 w3-content" id="portfolio">
-    <h2 class="w3-text-grey">Portfolio</h2>
-    <hr class="w3-opacity">
-    <a href="https://github.com/Berlinge" target="_blank">github account</a>
-    <div itemscope="" itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-8004-3646" href="https://orcid.org/0000-0002-8004-3646" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a></div>
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-  
+    <!-- Portfolio Section -->
+    <div class="w3-padding-32 w3-content" id="portfolio">
+      <h2 class="w3-text-grey">Portfolio</h2>
+      <hr class="w3-opacity">
+      <a href="https://github.com/Berlinge" target="_blank">github account</a>
+      <div itemscope="" itemtype="https://schema.org/Person"><a itemprop="sameAs"
+          content="https://orcid.org/0000-0002-8004-3646" href="https://orcid.org/0000-0002-8004-3646"
+          target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img
+            src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;"
+            alt="ORCID iD icon"></a></div>
+      <!-- Grid for photos -->
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half">
+
+        </div>
+
+        <div class="w3-half">
+
+        </div>
+        <!-- End photo grid -->
+      </div>
+      <!-- End Portfolio Section -->
+    </div>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+      <h2>About</h2>
+      <hr class="w3-opacity">
+      <p> </p>
+      <h3 class="w3-padding-16"> - My Skills</h3>
+      <p class="w3-wide">Medical Engineering / Imaging techniques</p>
+      <div class="w3-light-grey">
+      </div>
+      <p class="w3-wide">Programming (Matlab, LabVIEW, C#, Python, C++, Rust)</p>
+      <div class="w3-light-grey">
+      </div>
+      <p class="w3-wide">Optical Coherence Tomography, Photoacoustic Imaging</p>
+      <div class="w3-light-grey">
+      </div><br>
+
+      <!-- End About Section -->
+    </div>
+
+    <!-- Contact Section -->
+    <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+      <h2>Contact Me</h2>
+      <hr class="w3-opacity">
+
+      <div class="w3-section">
+        <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Berlin, Germany</p>
+        <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> email: M.Muenter@outlook.com</p>
       </div>
 
-      <div class="w3-half">
-
-      </div>
-    <!-- End photo grid -->
+      <!-- End Contact Section -->
     </div>
-  <!-- End Portfolio Section -->
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+      <a href="https://www.instagram.com/mi.muenter/" target="_blank">Instagram<i
+          class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href="https://twitter.com/Michael_Muenter" target="_blank">Twitter<i
+          class="fa fa-twitter w3-hover-opacity"></i></a>
+      <a href="https://www.linkedin.com/in/michael-m%C3%BCnter-0b2987123/" target="_blank">LinkedIn<i
+          class="fa fa-linkedin w3-hover-opacity"></i></a>
+      <a href="https://www.researchgate.net/profile/Michael-Muenter/" target="_blank">ResearchGate<i
+          class="fa fa-linkedin w3-hover-opacity"></i></a>
+      <!-- End footer -->
+    </footer>
+
+    <!-- END PAGE CONTENT -->
   </div>
 
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
-    <h2>About</h2>
-    <hr class="w3-opacity">
-    <p> </p>
-    <h3 class="w3-padding-16"> - My Skills</h3>
-    <p class="w3-wide">Medical Engineering / Imaging techniques</p>
-    <div class="w3-light-grey">
-    </div>
-    <p class="w3-wide">Programming (Matlab, LabVIEW, C#, Python, C++, Rust)</p>
-    <div class="w3-light-grey">
-    </div>
-    <p class="w3-wide">Optical Coherence Tomography, Photoacoustic Imaging</p>
-    <div class="w3-light-grey">
-    </div><br>
-       
-  <!-- End About Section -->
-  </div>
+  <script>
+    // Open and close sidebar
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "60%";
+      document.getElementById("mySidebar").style.display = "block";
+    }
 
-  <!-- Contact Section -->
-  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
-    <h2>Contact Me</h2>
-    <hr class="w3-opacity">
-
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Berlin, Germany</p>
-      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> email: M.Muenter@outlook.com</p>
-    </div>
-    
-  <!-- End Contact Section -->
-  </div>  
-  
-  <!-- Footer -->
-  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
-    <a href="https://www.instagram.com/mi.muenter/" target="_blank">Instagram<i class="fa fa-instagram w3-hover-opacity"></i></a>
-    <a href="https://twitter.com/Michael_Muenter" target="_blank">Twitter<i class="fa fa-twitter w3-hover-opacity"></i></a>
-    <a href="https://www.linkedin.com/in/michael-m%C3%BCnter-0b2987123/" target="_blank">LinkedIn<i class="fa fa-linkedin w3-hover-opacity"></i></a>
-    <a href="https://www.researchgate.net/profile/Michael-Muenter/" target="_blank">ResearchGate<i class="fa fa-linkedin w3-hover-opacity"></i></a>
-  <!-- End footer -->
-  </footer>
-  
-<!-- END PAGE CONTENT -->
-</div>
-
-<script>
-// Open and close sidebar
-function openNav() {
-  document.getElementById("mySidebar").style.width = "60%";
-  document.getElementById("mySidebar").style.display = "block";
-}
-
-function closeNav() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
+    function closeNav() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
 
 </body>
+
 </html>
